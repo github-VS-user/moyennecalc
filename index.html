@@ -3,57 +3,42 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>MoyenneCalc - Your Average Grade Tool</title>
-    <meta name="description" content="Use our embedded tool to easily calculate your average grades. Simple and effective for students.">
+    <title>MoyenneCalc</title>
+    <meta name="description" content="A fullscreen interface for the Moyenne grade calculator application. Calculate your averages quickly and easily here.">
     
-    <!-- Link to external CSS file for styling and responsiveness -->
-    <link rel="stylesheet" href="style.css">
+    <!-- Link the CSS file -->
+    <link rel="stylesheet" href="fullscreen-style.css">
     
-    <!-- Recommended for performance and accessibility -->
-    <script src="cdn.jsdelivr.net"></script>
+    <!-- Hide the content used for SEO to make the page appear fullscreen -->
+    <style>
+        .seo-hidden-content {
+            display: none;
+            /* Only visible to search engines and screen readers */
+        }
+    </style>
 </head>
 <body>
 
-    <header>
+    <!-- This content is hidden visually but readable by Google for SEO context -->
+    <div class="seo-hidden-content">
         <h1>MoyenneCalc</h1>
-    </header>
+        <p>This page hosts the full-screen Moyenne grade calculation web application. Use this tool to calculate your academic averages instantly. The interface is designed to maximize screen space for the best user experience.</p>
+        <p>Features include easy score entry, instant results, and a streamlined mobile-friendly design.</p>
+        <a href="moyennecalc-7nwaiqwn.sites.blink.new">Direct link to the calculator source</a>
+    </div>
 
-    <main>
-        <p>
-            Welcome to the Moyenne Calculator website! This page hosts an essential, third-party grade calculation tool to help you instantly determine your academic average.
-        </p>
-
-        <!-- The SEO-friendly iFrame tag -->
-        <div class="iframe-container">
-            <iframe 
-                src="https://moyennecalc-7nwaiqwn.sites.blink.new/" 
-                title="Moyenne Grade Calculator" 
-                loading="lazy" 
-                frameborder="0" 
-                allowfullscreen>
-                <!-- Fallback content for very old browsers -->
-                Your browser does not support iFrames. You can access the calculator directly via this [text-based link](https://moyennecalc-7nwaiqwn.sites.blink.new/).
-            </iframe>
-        </div>
-        
-        <!-- Additional, unique content to boost SEO of the parent page -->
-        <article>
-            <h2>How to Use the Calculator</h2>
-            <p>
-                Simply input your subject scores and credits into the fields above. The embedded application handles all the complex calculations for you, providing a quick, reliable result. This tool is designed to enhance your user experience and help manage your academic progress efficiently.
-            </p>
-            <h3>Key Features:</h3>
-            <ul>
-                <li>Easy-to-use interface for grade entry.</li>
-                <li>Instant average calculation.</li>
-                <li>Mobile-friendly design within its container.</li>
-            </ul>
-        </article>
-    </main>
-
-    <footer>
-        <p>&copy; 2025 Your Website Name | [Privacy Policy](link-to-your-privacy-policy)</p>
-    </footer>
+    <!-- The iFrame container that stretches to fill the viewport -->
+    <div class="fullscreen-iframe-container">
+        <iframe 
+            src="moyennecalc-7nwaiqwn.sites.blink.new" 
+            title="Moyenne Grade Calculator Fullscreen App" 
+            loading="eager"
+            frameborder="0" 
+            allowfullscreen>
+            <!-- Fallback content -->
+            Your browser does not support iFrames. Please access the calculator directly via this [link](moyennecalc-7nwaiqwn.sites.blink.new).
+        </iframe>
+    </div>
 
 </body>
 </html>
